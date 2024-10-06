@@ -1,0 +1,31 @@
+project(gdjucy)
+
+# Automatically pick up files added to src
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/*.h"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+
+# Add a dynamic library called gdjucy - this builds gdjucy.dll
+add_library(${PROJECT_NAME} SHARED ${SOURCES})
+
+target_include_directories(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src")
+# replace if ASIO support
+#target_include_directories(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src"
+#"C:/MyData/Works40s/Programing/VST3SDK/asiosdk_2.3.3_2019-06-14/asiosdk_2.3.3_2019-06-14/common/")
+
+target_link_libraries(${PROJECT_NAME} 
+PRIVATE
+    godot::cpp
+    juce::juce_audio_basics
+    juce::juce_audio_devices
+    juce::juce_audio_utils
+    juce::juce_dsp
+    
+PUBLIC
+    juce::juce_recommended_config_flags
+    juce::juce_recommended_lto_flags
+    juce::juce_recommended_warning_flags
+)
+
+source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}/src" PREFIX src FILES ${SOURCES})
