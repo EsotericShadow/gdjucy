@@ -14,13 +14,6 @@ GDJucyはGodot4.3用のGDExtensionで、現在はJUCE 8.0.2の機能を利用す
 
 目的は情報共有と問題解決です。この問題の解決策や改善につながるアドバイスをもし頂けたら非常に助かります。
 
-# プロジェクト構成等
-* GDJucyはGDExtensionです。
-* CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studioのもの
-* gdjucy/srcの中にソースコードがあります。
-* godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。
-* プロジェクトフォルダ直下でbuild.batを実行するとソースがコンパイルされ、build/gdjucy/Debug/gdjucy.dllが生成されます。godot_test_project/bin/以下にコピーすると、更新内容が実行プログラムに反映されます。
-
 # ノイズ問題の確認方法
 * exeフォルダの中にある実行ファイルを実行するとGodotアプリが起動し、うまく行けばサイン波の音が鳴ると思います。数十秒か数分聞いているとクリックノイズ（ポッという音など）が鳴ると思います。
 
@@ -45,6 +38,13 @@ GDJucyはGodot4.3用のGDExtensionで、現在はJUCE 8.0.2の機能を利用す
 [^3]:このバージョンは適当に新しければよく、一致させなくていいです
 [^4]:「C++によるデスクトップ開発」ワークロードを有効化する必要あり
 
+
+# プロジェクト構成等について
+* GDJucyはGDExtensionです。
+* CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studio
+* gdjucy/srcの中にソースコードがあります。
+* godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。
+* プロジェクトフォルダ直下でbuild.batを実行するとソースがコンパイルされ、build/gdjucy/Debug/gdjucy.dllが生成されます。godot_test_project/bin/以下にコピーすると、更新内容が実行プログラムに反映されます。
 
 # 使用ライブラリ
 * Godot Engine
