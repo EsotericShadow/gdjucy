@@ -17,12 +17,15 @@ GodotにJUCEのオーディオエンジンを組み合わせて使いたいと�
 
 
 # 開発環境（別途インストールが必要なもの）
-* Windows 10/11 \[^クリーンなWindows10の場合はVisual C++再頒布可能パッケージをインストールする必要がある（または追加で.net Frameworkも必要かも）]
-* Godot4.3 - https://godotengine.org/download/windows/ \[^Godotエディタを使います。バージョンは完全一致させる必要があります]
-* CMake3.30.3 - https://cmake.org/download/ \[^このバージョンは適当に新しければよく、一致させなくていいです]
-* Visual Studio Community 2022 \[^「C++によるデスクトップ開発」ワークロードを有効化する必要あり]
+* Windows 10/11 [^1]
+* Godot4.3 - https://godotengine.org/download/windows/ [^2]
+* CMake3.30.3 - https://cmake.org/download/ [^3]
+* Visual Studio Community 2022 [^4]
 
-
+[^1]:クリーンなWindows10の場合はVisual C++再頒布可能パッケージをインストールする必要がある（または追加で.net Frameworkも必要かも）
+[^2]:Godotエディタを使います。バージョンは完全一致させる必要があります
+[^3]:このバージョンは適当に新しければよく、一致させなくていいです
+[^4]:「C++によるデスクトップ開発」ワークロードを有効化する必要あり
 
 # ライセンス
 * AGPLv3となります。（JUCEの非商用ライセンスの制約から）
