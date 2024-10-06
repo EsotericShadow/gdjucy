@@ -2,6 +2,7 @@
  This is a personal project that aim is to link Godot with the JUCE audio engine. I am currently working on.
 
 GodotにJUCEのオーディオエンジンを組み合わせて使いたいと思って試作中の個人的なプロジェクトです。完成品のライブラリではありません。
+
 現在はGodot4.3上でGDExtensionの形でJUCE8.0.2の機能を利用することに成功しています。
 
 # 現状の課題
