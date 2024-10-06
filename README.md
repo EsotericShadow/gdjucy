@@ -46,7 +46,7 @@ GDJucyはGodot4.3用のGDExtensionで、現在はJUCE 8.0.2の機能を利用す
 # プロジェクト構成等について
 * GDJucyはGDExtensionです。最終的な成果物としてはgdjucy.dllとgdjucy.gdextensionです。
 * gdjucy/srcの中にソースコードがあります。
-* godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。
+* godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。実行するとオーディオデバイスの情報などいろいろログ出力されます。
 * CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studio
 * プロジェクトフォルダ直下でbuild.batを実行するとソースがコンパイルされ、build/gdjucy/Debug/gdjucy.dllが生成されます。godot_test_project/bin/以下にコピーすると、更新内容が実行プログラムに反映されます。
 
