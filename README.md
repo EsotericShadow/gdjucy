@@ -40,7 +40,7 @@ GDJucyはGodot4.3用のGDExtensionで、現在はJUCE 8.0.2の機能を利用す
 
 
 # プロジェクト構成等について
-* GDJucyはGDExtensionです。
+* GDJucyはGDExtensionです。最終的な成果物としてはgdjucy.dllとgdjucy.gdextensionです。
 * CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studio
 * gdjucy/srcの中にソースコードがあります。
 * godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。
