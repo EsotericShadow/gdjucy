@@ -3,11 +3,13 @@
 
 GodotにJUCEのオーディオエンジンを組み合わせて使いたいと思って試作中の個人的なプロジェクトです。完成品のライブラリではありません。
 
+# 現状の課題
 現在はGodot4.3上でGDExtensionの形でJUCE8.0.2を利用することに成功しています。
 しかし現状では、単純なサイン波を鳴らすだけでも、数秒から一分前後の間隔でクリックノイズ（ポップノイズ・プチノイズ？）が鳴るという問題があります。今のままでは実用性は低いです。
 
 この個人プロジェクトの公開目的は情報共有と問題解決です。この問題の解決策や改善につながるアドバイスを頂けると非常に助かります。
 
+#
 
 # 今までに分かっていること
 * デバイスタイプやバッファサイズを変えてもノイズには特に効果がない
@@ -20,7 +22,7 @@ GodotにJUCEのオーディオエンジンを組み合わせて使いたいと�
 * Windows 10/11 [^1]
 * Godot4.3 - https://godotengine.org/download/windows/ [^2]
 * CMake3.30.3 - https://cmake.org/download/ [^3]
-* Visual Studio Community 2022 [^4]
+* Visual Studio Community 2022 https://visualstudio.microsoft.com/ja/vs/community/ [^4]
 
 [^1]:クリーンなWindows10の場合は「Visual C++再頒布可能パッケージ」をインストールする必要があります（もしかしたら追加で.net Frameworkも必要かも）
 [^2]:Godotエディタを使います。バージョンは完全一致させる必要があります
