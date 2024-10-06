@@ -5,8 +5,7 @@ REM * for Relaase Build *
 REM cmake --build ./build --config Release
 
 if %ERRORLEVEL% equ 0 (
-    copy /Y "build\gdjucy\Release\gameplay.dll" "godot_test_project\bin\"
-    "C:\MyData\Works40s\Godot\Godot_v4.3-stable_win64.exe\Godot_v4.3-stable_win64.exe" --path "./godot_test_project/"
+    copy /Y "build\gdjucy\Debug\gdjucy.dll" "godot_test_project\bin\"
 ) else (
     echo "Build Error!!"
 )
