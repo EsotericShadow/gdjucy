@@ -2,9 +2,9 @@
  This is a personal project that aim is to link Godot with the JUCE audio engine. I am currently working on.
 
 GodotにJUCEのオーディオエンジンを組み合わせて使いたいと思って試作中の個人的なプロジェクトです。完成品のライブラリではありません。
+現在はGodot4.3上でGDExtensionの形でJUCE8.0.2の機能を利用することに成功しています。
 
 # 現状の課題
-現在はGodot4.3上でGDExtensionの形でJUCE8.0.2を利用することに成功しています。
 しかし現状では、単純なサイン波を鳴らすだけでも、数秒から一分前後の間隔でクリックノイズ（ポップノイズ・プチノイズ？）が鳴るという問題があります。今のままでは実用性は低いです。
 
 この個人プロジェクトの公開目的は情報共有と問題解決です。この問題の解決策や改善につながるアドバイスを頂けると非常に助かります。
