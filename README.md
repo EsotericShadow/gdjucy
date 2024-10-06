@@ -15,6 +15,8 @@ GodotにJUCEのオーディオエンジンを組み合わせて使いたいと�
 目的は情報共有と問題解決です。この問題の解決策や改善につながるアドバイスをもし頂けたら非常に助かります。
 
 # プロジェクト構成等
+* GDExtensionでJUCEモジュールを利用可能にしています。
+* CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studioのもの
 * gdjucy/srcの中にソースコードがあります。
 * godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。
 * プロジェクトフォルダ直下でbuild.batを実行するとソースがコンパイルされ、build/gdjucy/Debug/gdjucy.dllが生成されます。godot_test_project/bin/以下にコピーすると、更新内容が実行プログラムに反映されます。
