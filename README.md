@@ -13,7 +13,8 @@ GDJucyはGodot4.3用のGDExtensionで、現在はJUCE 8.0.2の機能を利用す
 
 目的は情報共有と問題解決です。この問題の解決策や改善につながるアドバイスをもし頂けたら非常に助かります。
 
-![Screen shot](screenshot.png)
+https://github.com/user-attachments/assets/693cbcb7-2bc9-4472-a1c7-fa715e313818
+
 
 # ノイズ問題の確認方法
 * exeフォルダの中にある実行ファイルを実行するとGodotアプリが起動し、うまく行けばサイン波の音が鳴ると思います。数十秒か数分聞いているとクリックノイズ（ポッという音など）が鳴ると思います。
