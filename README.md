@@ -47,10 +47,11 @@ https://github.com/user-attachments/assets/693cbcb7-2bc9-4472-a1c7-fa715e313818
 
 # プロジェクト構成等について
 * GDJucyはGDExtensionです。最終的な成果物としてはgdjucy.dllとgdjucy.gdextensionです。
-* gdjucy/srcの中にソースコードがあります。
-* godot_test_project/にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。実行するとオーディオデバイスの情報などいろいろログ出力されます。
-* CMakeでCMakeLists.txtの設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studio
+* gdjucy/src の中にソースコードがあります。
+* godot_test_project/ にテスト用のGodotプロジェクトがあります。Godotエディタで開いて実行できます。実行するとオーディオデバイスの情報などいろいろログ出力されます。
+* CMakeでCMakeLists.txt の設定に沿ってソースコードをコンパイルします。コンパイラはVisual Studio付属のものです。
 * プロジェクトフォルダ直下でbuild.batを実行するとソースがコンパイルされ、build/gdjucy/Debug/gdjucy.dllが生成されます。godot_test_project/bin/以下にコピーすると、更新内容が実行プログラムに反映されます。
+* juce_with_cpp_windows_desktop_app/ は最小のWindowsデスクトップアプリに同様にJUCEモジュールを組み込み、同じノイズ問題が起こるか確認するために作ったテストプログラムです。
 
 # 使用ライブラリ
 * Godot Engine
